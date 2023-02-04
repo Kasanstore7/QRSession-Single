@@ -13,6 +13,10 @@ function qr() {
   var session = makeWASocket({
     auth: state,
     printQRInTerminal: true,
+    browser: ['baileys', 'Chrome', ''],
+    connectTimeoutMs: 60_000,
+    defaultQueryTimeoutMs: 0,
+    keepAliveIntervalMs: 1000
   })
   session.ev.on("connection.update", async (s) => {
     var { 
