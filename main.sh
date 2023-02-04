@@ -1,1 +1,1 @@
-npm install && npm update && node .
+npm install && npm update && npm start
