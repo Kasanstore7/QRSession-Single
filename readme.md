@@ -1,16 +1,16 @@
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
+# Repositori Qr
+Ini berfungsi untuk mendapatkan session Single Auth
 
+- Masuk link di sampinng untuk run instan.
+[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@AzRyCb/Session-BoTzMd#.github/FUNDING.yml)
+- jika ingin import ke replit klik  link dibawah
+- https://replit.com/github/AzRyCb/Session-BoTzMd
 
-## Sessions Single Auth 
-> Module Untuk mengambil sessions Single Auth  
-
-## Baileys Md 
-> Menggunakan Baileys Api Whatsapp 
-
-## Instalasi Package 
+## install Termux/rdp/windows/dll
 ```
-$ git clone https://github.com/BOTCAHX/Session-MD
-$ cd Session-MD
-$ node .
-
+> git clone https://github.com/AzRyCb/Session-BoTzMd
+> cd Session-BoTzMd
+> npm install && npm update
+> npm start
 ```
+
