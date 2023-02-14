@@ -7,7 +7,7 @@ useSingleFileAuthState
 var { 
 state, 
 saveState 
-} = useSingleFileAuthState('./session.data.json')
+} = useSingleFileAuthState('./X.data.json')
 
 function qr() {
   var session = makeWASocket({
